@@ -1,4 +1,4 @@
-D:\Downloads\results\vit2d\all hypers
+
 Using device: /GPU:0
 
 === Transform: stft, config: {'nperseg': 64, 'overlap': 0.25, 'window': 'hann'} ===
