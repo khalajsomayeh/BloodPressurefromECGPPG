@@ -1,4 +1,4 @@
-D:\Downloads\results\5fcv_cnn
+
 ecg train: (20000, 1250)
 y_train_sbp: (20000, 1)
 ecg val: (5000, 1250)
