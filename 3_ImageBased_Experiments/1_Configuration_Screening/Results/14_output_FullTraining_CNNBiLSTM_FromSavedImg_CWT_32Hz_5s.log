@@ -1,4 +1,4 @@
-D:\Downloads\results\5fcv_cnn_vit\4_Val_generatr
+
 ecg train: (721728, 1250)
 y_train_sbp: (721728, 1)
 ecg val: (180432, 1250)
