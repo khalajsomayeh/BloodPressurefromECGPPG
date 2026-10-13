@@ -1,0 +1,462 @@
+D:\Downloads\results\5fcv_1dvit
+
+ecg train: (20000, 1250)
+y_train_sbp: (20000, 1)
+ecg val: (5000, 1250)
+y_val_sbp: (5000, 1)
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(40000, 64, 80, 1)
+ sampling rate:16
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.76, MAE=15.41, MSE=387.49, SDE=19.61
+DBP: ME=0.52, MAE=11.52, MSE=214.98, SDE=14.65
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(20000, 64, 160, 1)
+ sampling rate:16
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.29, MAE=16.52, MSE=448.54, SDE=21.05
+DBP: ME=1.24, MAE=10.17, MSE=170.85, SDE=13.01
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(40000, 64, 160, 1)
+ sampling rate:32
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.27, MAE=15.38, MSE=392.62, SDE=19.68
+DBP: ME=0.12, MAE=12.15, MSE=238.60, SDE=15.45
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(20000, 64, 320, 1)
+ sampling rate:32
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.63, MAE=16.50, MSE=445.92, SDE=21.05
+DBP: ME=1.47, MAE=10.18, MSE=171.48, SDE=13.01
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(40000, 64, 320, 1)
+ sampling rate:64
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=-0.60, MAE=14.01, MSE=343.96, SDE=18.54
+DBP: ME=-0.37, MAE=11.48, MSE=218.74, SDE=14.79
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(20000, 64, 640, 1)
+ sampling rate:64
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.23, MAE=16.51, MSE=444.81, SDE=21.05
+DBP: ME=0.78, MAE=10.17, MSE=169.93, SDE=13.01
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(40000, 64, 625, 1)
+ sampling rate:125
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.12, MAE=13.62, MSE=339.62, SDE=18.39
+DBP: ME=-0.05, MAE=10.74, MSE=199.49, SDE=14.12
+
+====================================================================================
+
+ Fold:0
+ train_ecg_shape:(20000, 64, 1250, 1)
+ sampling rate:125
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.87, MAE=16.52, MSE=444.08, SDE=21.06
+DBP: ME=-0.02, MAE=10.21, MSE=169.33, SDE=13.01
+ecg train: (20000, 1250)
+y_train_sbp: (20000, 1)
+ecg val: (5000, 1250)
+y_val_sbp: (5000, 1)
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(40000, 64, 80, 1)
+ sampling rate:16
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.09, MAE=14.28, MSE=356.83, SDE=18.77
+DBP: ME=1.60, MAE=10.77, MSE=196.29, SDE=13.92
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(20000, 64, 160, 1)
+ sampling rate:16
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.98, MAE=17.26, MSE=474.37, SDE=21.69
+DBP: ME=1.45, MAE=9.61, MSE=152.38, SDE=12.26
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(40000, 64, 160, 1)
+ sampling rate:32
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.55, MAE=14.02, MSE=345.85, SDE=18.59
+DBP: ME=-0.87, MAE=11.11, MSE=203.97, SDE=14.26
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(20000, 64, 320, 1)
+ sampling rate:32
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.16, MAE=17.26, MSE=475.12, SDE=21.69
+DBP: ME=0.06, MAE=9.65, MSE=150.28, SDE=12.26
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(40000, 64, 320, 1)
+ sampling rate:64
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.96, MAE=13.83, MSE=337.83, SDE=18.14
+DBP: ME=0.84, MAE=10.61, MSE=190.27, SDE=13.77
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(20000, 64, 640, 1)
+ sampling rate:64
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.07, MAE=17.26, MSE=474.77, SDE=21.69
+DBP: ME=0.42, MAE=9.62, MSE=150.46, SDE=12.26
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(40000, 64, 625, 1)
+ sampling rate:125
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.11, MAE=14.05, MSE=360.69, SDE=18.96
+DBP: ME=0.17, MAE=10.21, MSE=185.43, SDE=13.62
+
+====================================================================================
+
+ Fold:1
+ train_ecg_shape:(20000, 64, 1250, 1)
+ sampling rate:125
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.76, MAE=17.26, MSE=473.55, SDE=21.69
+DBP: ME=0.27, MAE=9.63, MSE=150.35, SDE=12.26
+ecg train: (20000, 1250)
+y_train_sbp: (20000, 1)
+ecg val: (5000, 1250)
+y_val_sbp: (5000, 1)
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(40000, 64, 80, 1)
+ sampling rate:16
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.77, MAE=14.91, MSE=365.12, SDE=19.03
+DBP: ME=0.77, MAE=10.54, MSE=187.02, SDE=13.65
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(20000, 64, 160, 1)
+ sampling rate:16
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.98, MAE=16.39, MSE=439.23, SDE=20.94
+DBP: ME=1.44, MAE=9.18, MSE=137.60, SDE=11.64
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(40000, 64, 160, 1)
+ sampling rate:32
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.17, MAE=13.16, MSE=293.85, SDE=17.14
+DBP: ME=0.69, MAE=10.33, MSE=181.26, SDE=13.45
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(20000, 64, 320, 1)
+ sampling rate:32
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.02, MAE=16.39, MSE=439.29, SDE=20.93
+DBP: ME=0.60, MAE=9.18, MSE=135.91, SDE=11.64
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(40000, 64, 320, 1)
+ sampling rate:64
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=-0.12, MAE=13.37, MSE=300.90, SDE=17.35
+DBP: ME=1.60, MAE=10.01, MSE=169.44, SDE=12.92
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(20000, 64, 640, 1)
+ sampling rate:64
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.86, MAE=16.38, MSE=441.69, SDE=20.93
+DBP: ME=-0.01, MAE=9.20, MSE=135.53, SDE=11.64
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(40000, 64, 625, 1)
+ sampling rate:125
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.24, MAE=13.78, MSE=325.69, SDE=18.05
+DBP: ME=1.13, MAE=10.12, MSE=173.84, SDE=13.14
+
+====================================================================================
+
+ Fold:2
+ train_ecg_shape:(20000, 64, 1250, 1)
+ sampling rate:125
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.20, MAE=16.38, MSE=439.68, SDE=20.93
+DBP: ME=0.39, MAE=9.18, MSE=135.71, SDE=11.64
+ecg train: (20000, 1250)
+y_train_sbp: (20000, 1)
+ecg val: (5000, 1250)
+y_val_sbp: (5000, 1)
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(40000, 64, 80, 1)
+ sampling rate:16
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.22, MAE=14.02, MSE=334.44, SDE=18.29
+DBP: ME=0.58, MAE=10.61, MSE=193.00, SDE=13.88
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(20000, 64, 160, 1)
+ sampling rate:16
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.56, MAE=16.98, MSE=459.64, SDE=21.29
+DBP: ME=0.75, MAE=9.81, MSE=158.59, SDE=12.57
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(40000, 64, 160, 1)
+ sampling rate:32
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.82, MAE=13.81, MSE=342.88, SDE=18.30
+DBP: ME=1.06, MAE=10.97, MSE=207.45, SDE=14.36
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(20000, 64, 320, 1)
+ sampling rate:32
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.54, MAE=15.90, MSE=413.84, SDE=20.18
+DBP: ME=1.95, MAE=9.56, MSE=150.63, SDE=12.12
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(40000, 64, 320, 1)
+ sampling rate:64
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.56, MAE=14.12, MSE=343.62, SDE=18.53
+DBP: ME=1.43, MAE=11.12, MSE=215.83, SDE=14.62
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(20000, 64, 640, 1)
+ sampling rate:64
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.48, MAE=16.98, MSE=459.19, SDE=21.28
+DBP: ME=1.45, MAE=9.80, MSE=160.09, SDE=12.57
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(40000, 64, 625, 1)
+ sampling rate:125
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=0.08, MAE=13.55, MSE=325.88, SDE=18.05
+DBP: ME=1.27, MAE=10.84, MSE=208.75, SDE=14.39
+
+====================================================================================
+
+ Fold:3
+ train_ecg_shape:(20000, 64, 1250, 1)
+ sampling rate:125
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.56, MAE=16.98, MSE=459.72, SDE=21.29
+DBP: ME=1.39, MAE=9.81, MSE=159.95, SDE=12.57
+ecg train: (20000, 1250)
+y_train_sbp: (20000, 1)
+ecg val: (5000, 1250)
+y_val_sbp: (5000, 1)
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(40000, 64, 80, 1)
+ sampling rate:16
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.70, MAE=13.58, MSE=328.88, SDE=17.93
+DBP: ME=1.36, MAE=10.45, MSE=188.98, SDE=13.68
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(20000, 64, 160, 1)
+ sampling rate:16
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.47, MAE=15.91, MSE=425.36, SDE=20.57
+DBP: ME=0.15, MAE=9.37, MSE=145.74, SDE=12.07
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(40000, 64, 160, 1)
+ sampling rate:32
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.32, MAE=13.18, MSE=311.94, SDE=17.61
+DBP: ME=1.07, MAE=10.81, MSE=204.89, SDE=14.27
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(20000, 64, 320, 1)
+ sampling rate:32
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.11, MAE=17.06, MSE=472.54, SDE=21.64
+DBP: ME=0.73, MAE=9.67, MSE=154.13, SDE=12.39
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(40000, 64, 320, 1)
+ sampling rate:64
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=1.56, MAE=13.55, MSE=320.14, SDE=17.82
+DBP: ME=0.92, MAE=10.93, MSE=207.89, SDE=14.39
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(20000, 64, 640, 1)
+ sampling rate:64
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.12, MAE=17.06, MSE=472.56, SDE=21.64
+DBP: ME=0.61, MAE=9.67, MSE=153.97, SDE=12.39
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(40000, 64, 625, 1)
+ sampling rate:125
+ segment length:5
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.68, MAE=13.46, MSE=335.30, SDE=18.11
+DBP: ME=3.00, MAE=10.66, MSE=213.58, SDE=14.30
+
+====================================================================================
+
+ Fold:4
+ train_ecg_shape:(20000, 64, 1250, 1)
+ sampling rate:125
+ segment length:10
+ Transform method: cwt
+ config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': None, 'pad_mode': 'reflect', 'use_coi_mask': True}
+SBP: ME=2.05, MAE=17.06, MSE=472.26, SDE=21.64
+DBP: ME=0.83, MAE=9.67, MSE=154.28, SDE=12.39

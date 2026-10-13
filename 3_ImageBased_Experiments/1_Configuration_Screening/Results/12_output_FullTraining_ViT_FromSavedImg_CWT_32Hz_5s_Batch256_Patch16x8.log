@@ -1,0 +1,178 @@
+D:\Downloads\results\final_vit_CWT_32_5\vit_batch256_patch168
+TensorFlow version: 2.17.0
+Available GPUs: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Built with CUDA: True
+Mixed precision policy: <DTypePolicy "mixed_float16">
+train chunks: 11456
+train total samples: 1443456
+train image shape: (64, 160, 1)
+train loaded into RAM.
+val: ECG=2864, PPG=2864, SBP=2864, DBP=2864
+val chunks: 2864
+Data loading time: 5.20 minutes
+(1443456, 64, 160, 1)
+(1443456, 64, 160, 1)
+(1443456, 1)
+(1443456, 1)
+input_shape: (64, 160, 1)
+H: 64
+W: 160
+patch_h= 16 , patch_w= 8
+SBP mean/std: 104.32712 22.134878
+DBP mean/std: 67.589226 15.669038
+Epoch 1/200
+5639/5639 - 1623s - 288ms/step - dbp_output_loss: 11.8087 - dbp_output_mae_mmhg: 11.8087 - loss: 28.4283 - sbp_output_loss: 16.6196 - sbp_output_mae_mmhg: 16.6196 - val_dbp_output_loss: 11.2973 - val_dbp_output_mae_mmhg: 11.2973 - val_loss: 27.0846 - val_sbp_output_loss: 15.7873 - val_sbp_output_mae_mmhg: 15.7873 - learning_rate: 1.0000e-04
+Epoch 2/200
+5639/5639 - 1636s - 290ms/step - dbp_output_loss: 10.9772 - dbp_output_mae_mmhg: 10.9772 - loss: 26.4003 - sbp_output_loss: 15.4232 - sbp_output_mae_mmhg: 15.4232 - val_dbp_output_loss: 10.5063 - val_dbp_output_mae_mmhg: 10.5063 - val_loss: 25.4220 - val_sbp_output_loss: 14.9158 - val_sbp_output_mae_mmhg: 14.9158 - learning_rate: 1.0000e-04
+Epoch 3/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 9.9614 - dbp_output_mae_mmhg: 9.9614 - loss: 24.1457 - sbp_output_loss: 14.1847 - sbp_output_mae_mmhg: 14.1847 - val_dbp_output_loss: 9.3844 - val_dbp_output_mae_mmhg: 9.3844 - val_loss: 22.9820 - val_sbp_output_loss: 13.5976 - val_sbp_output_mae_mmhg: 13.5976 - learning_rate: 1.0000e-04
+Epoch 4/200
+5639/5639 - 1691s - 300ms/step - dbp_output_loss: 8.7759 - dbp_output_mae_mmhg: 8.7759 - loss: 21.5626 - sbp_output_loss: 12.7866 - sbp_output_mae_mmhg: 12.7866 - val_dbp_output_loss: 8.3130 - val_dbp_output_mae_mmhg: 8.3130 - val_loss: 20.5451 - val_sbp_output_loss: 12.2321 - val_sbp_output_mae_mmhg: 12.2321 - learning_rate: 1.0000e-04
+Epoch 5/200
+5639/5639 - 1650s - 293ms/step - dbp_output_loss: 7.8724 - dbp_output_mae_mmhg: 7.8724 - loss: 19.6206 - sbp_output_loss: 11.7481 - sbp_output_mae_mmhg: 11.7481 - val_dbp_output_loss: 7.7317 - val_dbp_output_mae_mmhg: 7.7317 - val_loss: 19.3147 - val_sbp_output_loss: 11.5830 - val_sbp_output_mae_mmhg: 11.5830 - learning_rate: 1.0000e-04
+Epoch 6/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 7.2549 - dbp_output_mae_mmhg: 7.2549 - loss: 18.2779 - sbp_output_loss: 11.0231 - sbp_output_mae_mmhg: 11.0231 - val_dbp_output_loss: 7.2796 - val_dbp_output_mae_mmhg: 7.2796 - val_loss: 18.3631 - val_sbp_output_loss: 11.0835 - val_sbp_output_mae_mmhg: 11.0835 - learning_rate: 1.0000e-04
+Epoch 7/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 6.8035 - dbp_output_mae_mmhg: 6.8035 - loss: 17.2688 - sbp_output_loss: 10.4653 - sbp_output_mae_mmhg: 10.4653 - val_dbp_output_loss: 6.9652 - val_dbp_output_mae_mmhg: 6.9652 - val_loss: 17.6825 - val_sbp_output_loss: 10.7174 - val_sbp_output_mae_mmhg: 10.7174 - learning_rate: 1.0000e-04
+Epoch 8/200
+5639/5639 - 1741s - 309ms/step - dbp_output_loss: 6.4459 - dbp_output_mae_mmhg: 6.4459 - loss: 16.4557 - sbp_output_loss: 10.0099 - sbp_output_mae_mmhg: 10.0099 - val_dbp_output_loss: 6.6888 - val_dbp_output_mae_mmhg: 6.6888 - val_loss: 17.0267 - val_sbp_output_loss: 10.3379 - val_sbp_output_mae_mmhg: 10.3379 - learning_rate: 1.0000e-04
+Epoch 9/200
+5639/5639 - 1599s - 284ms/step - dbp_output_loss: 6.1629 - dbp_output_mae_mmhg: 6.1629 - loss: 15.7876 - sbp_output_loss: 9.6248 - sbp_output_mae_mmhg: 9.6248 - val_dbp_output_loss: 6.4284 - val_dbp_output_mae_mmhg: 6.4284 - val_loss: 16.3910 - val_sbp_output_loss: 9.9626 - val_sbp_output_mae_mmhg: 9.9626 - learning_rate: 1.0000e-04
+Epoch 10/200
+5639/5639 - 1646s - 292ms/step - dbp_output_loss: 5.9203 - dbp_output_mae_mmhg: 5.9203 - loss: 15.2259 - sbp_output_loss: 9.3056 - sbp_output_mae_mmhg: 9.3056 - val_dbp_output_loss: 6.3317 - val_dbp_output_mae_mmhg: 6.3317 - val_loss: 16.2087 - val_sbp_output_loss: 9.8770 - val_sbp_output_mae_mmhg: 9.8770 - learning_rate: 1.0000e-04
+Epoch 11/200
+5639/5639 - 1639s - 291ms/step - dbp_output_loss: 5.7171 - dbp_output_mae_mmhg: 5.7171 - loss: 14.7461 - sbp_output_loss: 9.0289 - sbp_output_mae_mmhg: 9.0289 - val_dbp_output_loss: 6.1248 - val_dbp_output_mae_mmhg: 6.1248 - val_loss: 15.8101 - val_sbp_output_loss: 9.6853 - val_sbp_output_mae_mmhg: 9.6853 - learning_rate: 1.0000e-04
+Epoch 12/200
+5639/5639 - 1643s - 291ms/step - dbp_output_loss: 5.5415 - dbp_output_mae_mmhg: 5.5415 - loss: 14.3297 - sbp_output_loss: 8.7883 - sbp_output_mae_mmhg: 8.7883 - val_dbp_output_loss: 6.0467 - val_dbp_output_mae_mmhg: 6.0467 - val_loss: 15.6348 - val_sbp_output_loss: 9.5881 - val_sbp_output_mae_mmhg: 9.5881 - learning_rate: 1.0000e-04
+Epoch 13/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 5.3770 - dbp_output_mae_mmhg: 5.3770 - loss: 13.9381 - sbp_output_loss: 8.5610 - sbp_output_mae_mmhg: 8.5610 - val_dbp_output_loss: 6.0492 - val_dbp_output_mae_mmhg: 6.0492 - val_loss: 15.5461 - val_sbp_output_loss: 9.4969 - val_sbp_output_mae_mmhg: 9.4969 - learning_rate: 1.0000e-04
+Epoch 14/200
+5639/5639 - 1640s - 291ms/step - dbp_output_loss: 5.2362 - dbp_output_mae_mmhg: 5.2362 - loss: 13.5963 - sbp_output_loss: 8.3601 - sbp_output_mae_mmhg: 8.3601 - val_dbp_output_loss: 5.8378 - val_dbp_output_mae_mmhg: 5.8378 - val_loss: 15.0804 - val_sbp_output_loss: 9.2426 - val_sbp_output_mae_mmhg: 9.2426 - learning_rate: 1.0000e-04
+Epoch 15/200
+5639/5639 - 1714s - 304ms/step - dbp_output_loss: 5.1063 - dbp_output_mae_mmhg: 5.1063 - loss: 13.2792 - sbp_output_loss: 8.1728 - sbp_output_mae_mmhg: 8.1728 - val_dbp_output_loss: 5.9221 - val_dbp_output_mae_mmhg: 5.9221 - val_loss: 15.2963 - val_sbp_output_loss: 9.3742 - val_sbp_output_mae_mmhg: 9.3742 - learning_rate: 1.0000e-04
+Epoch 16/200
+5639/5639 - 1634s - 290ms/step - dbp_output_loss: 4.9831 - dbp_output_mae_mmhg: 4.9831 - loss: 12.9802 - sbp_output_loss: 7.9970 - sbp_output_mae_mmhg: 7.9970 - val_dbp_output_loss: 5.7223 - val_dbp_output_mae_mmhg: 5.7223 - val_loss: 14.8331 - val_sbp_output_loss: 9.1108 - val_sbp_output_mae_mmhg: 9.1108 - learning_rate: 1.0000e-04
+Epoch 17/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 4.8725 - dbp_output_mae_mmhg: 4.8725 - loss: 12.7006 - sbp_output_loss: 7.8281 - sbp_output_mae_mmhg: 7.8281 - val_dbp_output_loss: 5.7042 - val_dbp_output_mae_mmhg: 5.7042 - val_loss: 14.7692 - val_sbp_output_loss: 9.0650 - val_sbp_output_mae_mmhg: 9.0650 - learning_rate: 1.0000e-04
+Epoch 18/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 4.7710 - dbp_output_mae_mmhg: 4.7710 - loss: 12.4520 - sbp_output_loss: 7.6810 - sbp_output_mae_mmhg: 7.6810 - val_dbp_output_loss: 5.7043 - val_dbp_output_mae_mmhg: 5.7043 - val_loss: 14.7799 - val_sbp_output_loss: 9.0756 - val_sbp_output_mae_mmhg: 9.0756 - learning_rate: 1.0000e-04
+Epoch 19/200
+5639/5639 - 1643s - 291ms/step - dbp_output_loss: 4.6732 - dbp_output_mae_mmhg: 4.6732 - loss: 12.2068 - sbp_output_loss: 7.5334 - sbp_output_mae_mmhg: 7.5334 - val_dbp_output_loss: 5.5892 - val_dbp_output_mae_mmhg: 5.5892 - val_loss: 14.5964 - val_sbp_output_loss: 9.0072 - val_sbp_output_mae_mmhg: 9.0072 - learning_rate: 1.0000e-04
+Epoch 20/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 4.5834 - dbp_output_mae_mmhg: 4.5834 - loss: 11.9751 - sbp_output_loss: 7.3916 - sbp_output_mae_mmhg: 7.3916 - val_dbp_output_loss: 5.5878 - val_dbp_output_mae_mmhg: 5.5878 - val_loss: 14.5317 - val_sbp_output_loss: 8.9439 - val_sbp_output_mae_mmhg: 8.9439 - learning_rate: 1.0000e-04
+Epoch 21/200
+5639/5639 - 1640s - 291ms/step - dbp_output_loss: 4.4959 - dbp_output_mae_mmhg: 4.4959 - loss: 11.7543 - sbp_output_loss: 7.2583 - sbp_output_mae_mmhg: 7.2583 - val_dbp_output_loss: 5.6575 - val_dbp_output_mae_mmhg: 5.6575 - val_loss: 14.6324 - val_sbp_output_loss: 8.9749 - val_sbp_output_mae_mmhg: 8.9749 - learning_rate: 1.0000e-04
+Epoch 22/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 4.4150 - dbp_output_mae_mmhg: 4.4150 - loss: 11.5410 - sbp_output_loss: 7.1260 - sbp_output_mae_mmhg: 7.1260 - val_dbp_output_loss: 5.5337 - val_dbp_output_mae_mmhg: 5.5337 - val_loss: 14.3526 - val_sbp_output_loss: 8.8188 - val_sbp_output_mae_mmhg: 8.8188 - learning_rate: 1.0000e-04
+Epoch 23/200
+5639/5639 - 1643s - 291ms/step - dbp_output_loss: 4.3343 - dbp_output_mae_mmhg: 4.3343 - loss: 11.3331 - sbp_output_loss: 6.9988 - sbp_output_mae_mmhg: 6.9988 - val_dbp_output_loss: 5.5046 - val_dbp_output_mae_mmhg: 5.5046 - val_loss: 14.2941 - val_sbp_output_loss: 8.7895 - val_sbp_output_mae_mmhg: 8.7895 - learning_rate: 1.0000e-04
+Epoch 24/200
+5639/5639 - 1632s - 289ms/step - dbp_output_loss: 4.2584 - dbp_output_mae_mmhg: 4.2584 - loss: 11.1374 - sbp_output_loss: 6.8789 - sbp_output_mae_mmhg: 6.8789 - val_dbp_output_loss: 5.5026 - val_dbp_output_mae_mmhg: 5.5026 - val_loss: 14.2583 - val_sbp_output_loss: 8.7557 - val_sbp_output_mae_mmhg: 8.7557 - learning_rate: 1.0000e-04
+Epoch 25/200
+5639/5639 - 1587s - 281ms/step - dbp_output_loss: 4.1921 - dbp_output_mae_mmhg: 4.1921 - loss: 10.9553 - sbp_output_loss: 6.7631 - sbp_output_mae_mmhg: 6.7631 - val_dbp_output_loss: 5.4763 - val_dbp_output_mae_mmhg: 5.4763 - val_loss: 14.2236 - val_sbp_output_loss: 8.7473 - val_sbp_output_mae_mmhg: 8.7473 - learning_rate: 1.0000e-04
+Epoch 26/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 4.1184 - dbp_output_mae_mmhg: 4.1184 - loss: 10.7654 - sbp_output_loss: 6.6469 - sbp_output_mae_mmhg: 6.6469 - val_dbp_output_loss: 5.4481 - val_dbp_output_mae_mmhg: 5.4481 - val_loss: 14.0819 - val_sbp_output_loss: 8.6338 - val_sbp_output_mae_mmhg: 8.6338 - learning_rate: 1.0000e-04
+Epoch 27/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 4.0529 - dbp_output_mae_mmhg: 4.0529 - loss: 10.5882 - sbp_output_loss: 6.5353 - sbp_output_mae_mmhg: 6.5353 - val_dbp_output_loss: 5.4240 - val_dbp_output_mae_mmhg: 5.4240 - val_loss: 14.0949 - val_sbp_output_loss: 8.6709 - val_sbp_output_mae_mmhg: 8.6709 - learning_rate: 1.0000e-04
+Epoch 28/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 3.9898 - dbp_output_mae_mmhg: 3.9898 - loss: 10.4261 - sbp_output_loss: 6.4364 - sbp_output_mae_mmhg: 6.4364 - val_dbp_output_loss: 5.4108 - val_dbp_output_mae_mmhg: 5.4108 - val_loss: 14.0668 - val_sbp_output_loss: 8.6560 - val_sbp_output_mae_mmhg: 8.6560 - learning_rate: 1.0000e-04
+Epoch 29/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 3.9292 - dbp_output_mae_mmhg: 3.9292 - loss: 10.2607 - sbp_output_loss: 6.3313 - sbp_output_mae_mmhg: 6.3313 - val_dbp_output_loss: 5.3874 - val_dbp_output_mae_mmhg: 5.3874 - val_loss: 14.0201 - val_sbp_output_loss: 8.6327 - val_sbp_output_mae_mmhg: 8.6327 - learning_rate: 1.0000e-04
+Epoch 30/200
+5639/5639 - 1654s - 293ms/step - dbp_output_loss: 3.8729 - dbp_output_mae_mmhg: 3.8729 - loss: 10.1156 - sbp_output_loss: 6.2428 - sbp_output_mae_mmhg: 6.2428 - val_dbp_output_loss: 5.3298 - val_dbp_output_mae_mmhg: 5.3298 - val_loss: 13.8680 - val_sbp_output_loss: 8.5382 - val_sbp_output_mae_mmhg: 8.5382 - learning_rate: 1.0000e-04
+Epoch 31/200
+5639/5639 - 1630s - 289ms/step - dbp_output_loss: 3.8189 - dbp_output_mae_mmhg: 3.8189 - loss: 9.9714 - sbp_output_loss: 6.1525 - sbp_output_mae_mmhg: 6.1525 - val_dbp_output_loss: 5.3508 - val_dbp_output_mae_mmhg: 5.3508 - val_loss: 13.9069 - val_sbp_output_loss: 8.5561 - val_sbp_output_mae_mmhg: 8.5561 - learning_rate: 1.0000e-04
+Epoch 32/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 3.7612 - dbp_output_mae_mmhg: 3.7612 - loss: 9.8175 - sbp_output_loss: 6.0563 - sbp_output_mae_mmhg: 6.0563 - val_dbp_output_loss: 5.3087 - val_dbp_output_mae_mmhg: 5.3087 - val_loss: 13.8208 - val_sbp_output_loss: 8.5121 - val_sbp_output_mae_mmhg: 8.5121 - learning_rate: 1.0000e-04
+Epoch 33/200
+5639/5639 - 1647s - 292ms/step - dbp_output_loss: 3.7118 - dbp_output_mae_mmhg: 3.7118 - loss: 9.6856 - sbp_output_loss: 5.9738 - sbp_output_mae_mmhg: 5.9738 - val_dbp_output_loss: 5.3658 - val_dbp_output_mae_mmhg: 5.3658 - val_loss: 13.9628 - val_sbp_output_loss: 8.5969 - val_sbp_output_mae_mmhg: 8.5969 - learning_rate: 1.0000e-04
+Epoch 34/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 3.6591 - dbp_output_mae_mmhg: 3.6591 - loss: 9.5491 - sbp_output_loss: 5.8901 - sbp_output_mae_mmhg: 5.8901 - val_dbp_output_loss: 5.2941 - val_dbp_output_mae_mmhg: 5.2941 - val_loss: 13.7588 - val_sbp_output_loss: 8.4648 - val_sbp_output_mae_mmhg: 8.4648 - learning_rate: 1.0000e-04
+Epoch 35/200
+5639/5639 - 1653s - 293ms/step - dbp_output_loss: 3.6122 - dbp_output_mae_mmhg: 3.6122 - loss: 9.4236 - sbp_output_loss: 5.8114 - sbp_output_mae_mmhg: 5.8114 - val_dbp_output_loss: 5.3360 - val_dbp_output_mae_mmhg: 5.3360 - val_loss: 13.8546 - val_sbp_output_loss: 8.5186 - val_sbp_output_mae_mmhg: 8.5186 - learning_rate: 1.0000e-04
+Epoch 36/200
+5639/5639 - 1628s - 289ms/step - dbp_output_loss: 3.5647 - dbp_output_mae_mmhg: 3.5647 - loss: 9.2992 - sbp_output_loss: 5.7345 - sbp_output_mae_mmhg: 5.7345 - val_dbp_output_loss: 5.2868 - val_dbp_output_mae_mmhg: 5.2868 - val_loss: 13.7495 - val_sbp_output_loss: 8.4627 - val_sbp_output_mae_mmhg: 8.4627 - learning_rate: 1.0000e-04
+Epoch 37/200
+5639/5639 - 1645s - 292ms/step - dbp_output_loss: 3.5215 - dbp_output_mae_mmhg: 3.5215 - loss: 9.1790 - sbp_output_loss: 5.6576 - sbp_output_mae_mmhg: 5.6576 - val_dbp_output_loss: 5.2647 - val_dbp_output_mae_mmhg: 5.2647 - val_loss: 13.7066 - val_sbp_output_loss: 8.4419 - val_sbp_output_mae_mmhg: 8.4419 - learning_rate: 1.0000e-04
+Epoch 38/200
+5639/5639 - 1637s - 290ms/step - dbp_output_loss: 3.4754 - dbp_output_mae_mmhg: 3.4754 - loss: 9.0582 - sbp_output_loss: 5.5828 - sbp_output_mae_mmhg: 5.5828 - val_dbp_output_loss: 5.2871 - val_dbp_output_mae_mmhg: 5.2871 - val_loss: 13.7316 - val_sbp_output_loss: 8.4445 - val_sbp_output_mae_mmhg: 8.4445 - learning_rate: 1.0000e-04
+Epoch 39/200
+5639/5639 - 1647s - 292ms/step - dbp_output_loss: 3.4320 - dbp_output_mae_mmhg: 3.4320 - loss: 8.9466 - sbp_output_loss: 5.5147 - sbp_output_mae_mmhg: 5.5147 - val_dbp_output_loss: 5.3235 - val_dbp_output_mae_mmhg: 5.3235 - val_loss: 13.8235 - val_sbp_output_loss: 8.5000 - val_sbp_output_mae_mmhg: 8.5000 - learning_rate: 1.0000e-04
+Epoch 40/200
+5639/5639 - 1693s - 300ms/step - dbp_output_loss: 3.3926 - dbp_output_mae_mmhg: 3.3926 - loss: 8.8442 - sbp_output_loss: 5.4517 - sbp_output_mae_mmhg: 5.4517 - val_dbp_output_loss: 5.2260 - val_dbp_output_mae_mmhg: 5.2260 - val_loss: 13.6094 - val_sbp_output_loss: 8.3834 - val_sbp_output_mae_mmhg: 8.3834 - learning_rate: 1.0000e-04
+Epoch 41/200
+5639/5639 - 1587s - 281ms/step - dbp_output_loss: 3.3560 - dbp_output_mae_mmhg: 3.3560 - loss: 8.7411 - sbp_output_loss: 5.3851 - sbp_output_mae_mmhg: 5.3851 - val_dbp_output_loss: 5.2724 - val_dbp_output_mae_mmhg: 5.2724 - val_loss: 13.6931 - val_sbp_output_loss: 8.4207 - val_sbp_output_mae_mmhg: 8.4207 - learning_rate: 1.0000e-04
+Epoch 42/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 3.3160 - dbp_output_mae_mmhg: 3.3160 - loss: 8.6323 - sbp_output_loss: 5.3163 - sbp_output_mae_mmhg: 5.3163 - val_dbp_output_loss: 5.2521 - val_dbp_output_mae_mmhg: 5.2521 - val_loss: 13.6837 - val_sbp_output_loss: 8.4316 - val_sbp_output_mae_mmhg: 8.4316 - learning_rate: 1.0000e-04
+Epoch 43/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 3.2758 - dbp_output_mae_mmhg: 3.2758 - loss: 8.5367 - sbp_output_loss: 5.2609 - sbp_output_mae_mmhg: 5.2609 - val_dbp_output_loss: 5.2267 - val_dbp_output_mae_mmhg: 5.2267 - val_loss: 13.6032 - val_sbp_output_loss: 8.3765 - val_sbp_output_mae_mmhg: 8.3765 - learning_rate: 1.0000e-04
+Epoch 44/200
+5639/5639 - 1647s - 292ms/step - dbp_output_loss: 3.2431 - dbp_output_mae_mmhg: 3.2431 - loss: 8.4404 - sbp_output_loss: 5.1974 - sbp_output_mae_mmhg: 5.1974 - val_dbp_output_loss: 5.2597 - val_dbp_output_mae_mmhg: 5.2597 - val_loss: 13.6849 - val_sbp_output_loss: 8.4252 - val_sbp_output_mae_mmhg: 8.4252 - learning_rate: 1.0000e-04
+Epoch 45/200
+5639/5639 - 1661s - 295ms/step - dbp_output_loss: 3.2107 - dbp_output_mae_mmhg: 3.2107 - loss: 8.3584 - sbp_output_loss: 5.1477 - sbp_output_mae_mmhg: 5.1477 - val_dbp_output_loss: 5.2419 - val_dbp_output_mae_mmhg: 5.2419 - val_loss: 13.6001 - val_sbp_output_loss: 8.3582 - val_sbp_output_mae_mmhg: 8.3582 - learning_rate: 1.0000e-04
+Epoch 46/200
+5639/5639 - 1612s - 286ms/step - dbp_output_loss: 3.1707 - dbp_output_mae_mmhg: 3.1707 - loss: 8.2513 - sbp_output_loss: 5.0805 - sbp_output_mae_mmhg: 5.0805 - val_dbp_output_loss: 5.2279 - val_dbp_output_mae_mmhg: 5.2279 - val_loss: 13.6121 - val_sbp_output_loss: 8.3843 - val_sbp_output_mae_mmhg: 8.3843 - learning_rate: 1.0000e-04
+Epoch 47/200
+5639/5639 - 1592s - 282ms/step - dbp_output_loss: 3.1403 - dbp_output_mae_mmhg: 3.1403 - loss: 8.1735 - sbp_output_loss: 5.0332 - sbp_output_mae_mmhg: 5.0332 - val_dbp_output_loss: 5.2100 - val_dbp_output_mae_mmhg: 5.2100 - val_loss: 13.5747 - val_sbp_output_loss: 8.3647 - val_sbp_output_mae_mmhg: 8.3647 - learning_rate: 1.0000e-04
+Epoch 48/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 3.1079 - dbp_output_mae_mmhg: 3.1079 - loss: 8.0824 - sbp_output_loss: 4.9747 - sbp_output_mae_mmhg: 4.9747 - val_dbp_output_loss: 5.2470 - val_dbp_output_mae_mmhg: 5.2470 - val_loss: 13.6565 - val_sbp_output_loss: 8.4094 - val_sbp_output_mae_mmhg: 8.4094 - learning_rate: 1.0000e-04
+Epoch 49/200
+5639/5639 - 1638s - 290ms/step - dbp_output_loss: 3.0756 - dbp_output_mae_mmhg: 3.0756 - loss: 7.9980 - sbp_output_loss: 4.9225 - sbp_output_mae_mmhg: 4.9225 - val_dbp_output_loss: 5.2371 - val_dbp_output_mae_mmhg: 5.2371 - val_loss: 13.6207 - val_sbp_output_loss: 8.3836 - val_sbp_output_mae_mmhg: 8.3836 - learning_rate: 1.0000e-04
+Epoch 50/200
+5639/5639 - 1662s - 295ms/step - dbp_output_loss: 3.0498 - dbp_output_mae_mmhg: 3.0498 - loss: 7.9227 - sbp_output_loss: 4.8729 - sbp_output_mae_mmhg: 4.8729 - val_dbp_output_loss: 5.2108 - val_dbp_output_mae_mmhg: 5.2108 - val_loss: 13.5673 - val_sbp_output_loss: 8.3565 - val_sbp_output_mae_mmhg: 8.3565 - learning_rate: 1.0000e-04
+Epoch 51/200
+5639/5639 - 1626s - 288ms/step - dbp_output_loss: 3.0175 - dbp_output_mae_mmhg: 3.0175 - loss: 7.8395 - sbp_output_loss: 4.8220 - sbp_output_mae_mmhg: 4.8220 - val_dbp_output_loss: 5.1887 - val_dbp_output_mae_mmhg: 5.1887 - val_loss: 13.5279 - val_sbp_output_loss: 8.3392 - val_sbp_output_mae_mmhg: 8.3392 - learning_rate: 1.0000e-04
+Epoch 52/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 2.9913 - dbp_output_mae_mmhg: 2.9913 - loss: 7.7705 - sbp_output_loss: 4.7791 - sbp_output_mae_mmhg: 4.7791 - val_dbp_output_loss: 5.2167 - val_dbp_output_mae_mmhg: 5.2167 - val_loss: 13.5645 - val_sbp_output_loss: 8.3478 - val_sbp_output_mae_mmhg: 8.3478 - learning_rate: 1.0000e-04
+Epoch 53/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 2.9586 - dbp_output_mae_mmhg: 2.9586 - loss: 7.6859 - sbp_output_loss: 4.7273 - sbp_output_mae_mmhg: 4.7273 - val_dbp_output_loss: 5.1996 - val_dbp_output_mae_mmhg: 5.1996 - val_loss: 13.5851 - val_sbp_output_loss: 8.3855 - val_sbp_output_mae_mmhg: 8.3855 - learning_rate: 1.0000e-04
+Epoch 54/200
+
+Epoch 54: ReduceLROnPlateau reducing learning rate to 2.9999999242136255e-05.
+5639/5639 - 1638s - 290ms/step - dbp_output_loss: 2.9328 - dbp_output_mae_mmhg: 2.9328 - loss: 7.6112 - sbp_output_loss: 4.6783 - sbp_output_mae_mmhg: 4.6783 - val_dbp_output_loss: 5.1888 - val_dbp_output_mae_mmhg: 5.1888 - val_loss: 13.5328 - val_sbp_output_loss: 8.3440 - val_sbp_output_mae_mmhg: 8.3440 - learning_rate: 1.0000e-04
+Epoch 55/200
+5639/5639 - 1657s - 294ms/step - dbp_output_loss: 2.4586 - dbp_output_mae_mmhg: 2.4586 - loss: 6.3630 - sbp_output_loss: 3.9044 - sbp_output_mae_mmhg: 3.9044 - val_dbp_output_loss: 5.0100 - val_dbp_output_mae_mmhg: 5.0100 - val_loss: 13.0805 - val_sbp_output_loss: 8.0705 - val_sbp_output_mae_mmhg: 8.0705 - learning_rate: 3.0000e-05
+Epoch 56/200
+5639/5639 - 1631s - 289ms/step - dbp_output_loss: 2.2647 - dbp_output_mae_mmhg: 2.2647 - loss: 5.8562 - sbp_output_loss: 3.5914 - sbp_output_mae_mmhg: 3.5914 - val_dbp_output_loss: 5.0104 - val_dbp_output_mae_mmhg: 5.0104 - val_loss: 13.0780 - val_sbp_output_loss: 8.0677 - val_sbp_output_mae_mmhg: 8.0677 - learning_rate: 3.0000e-05
+Epoch 57/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 2.1653 - dbp_output_mae_mmhg: 2.1653 - loss: 5.6011 - sbp_output_loss: 3.4359 - sbp_output_mae_mmhg: 3.4359 - val_dbp_output_loss: 5.0101 - val_dbp_output_mae_mmhg: 5.0101 - val_loss: 13.0833 - val_sbp_output_loss: 8.0732 - val_sbp_output_mae_mmhg: 8.0732 - learning_rate: 3.0000e-05
+Epoch 58/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 2.0983 - dbp_output_mae_mmhg: 2.0983 - loss: 5.4222 - sbp_output_loss: 3.3239 - sbp_output_mae_mmhg: 3.3239 - val_dbp_output_loss: 5.0200 - val_dbp_output_mae_mmhg: 5.0200 - val_loss: 13.1027 - val_sbp_output_loss: 8.0827 - val_sbp_output_mae_mmhg: 8.0827 - learning_rate: 3.0000e-05
+Epoch 59/200
+
+Epoch 59: ReduceLROnPlateau reducing learning rate to 8.999999772640877e-06.
+5639/5639 - 1640s - 291ms/step - dbp_output_loss: 2.0436 - dbp_output_mae_mmhg: 2.0436 - loss: 5.2757 - sbp_output_loss: 3.2322 - sbp_output_mae_mmhg: 3.2322 - val_dbp_output_loss: 5.0252 - val_dbp_output_mae_mmhg: 5.0252 - val_loss: 13.1244 - val_sbp_output_loss: 8.0992 - val_sbp_output_mae_mmhg: 8.0992 - learning_rate: 3.0000e-05
+Epoch 60/200
+5639/5639 - 1647s - 292ms/step - dbp_output_loss: 1.8650 - dbp_output_mae_mmhg: 1.8650 - loss: 4.8060 - sbp_output_loss: 2.9410 - sbp_output_mae_mmhg: 2.9410 - val_dbp_output_loss: 5.0087 - val_dbp_output_mae_mmhg: 5.0087 - val_loss: 13.0726 - val_sbp_output_loss: 8.0639 - val_sbp_output_mae_mmhg: 8.0639 - learning_rate: 9.0000e-06
+Epoch 61/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 1.8035 - dbp_output_mae_mmhg: 1.8035 - loss: 4.6415 - sbp_output_loss: 2.8380 - sbp_output_mae_mmhg: 2.8380 - val_dbp_output_loss: 5.0059 - val_dbp_output_mae_mmhg: 5.0059 - val_loss: 13.0789 - val_sbp_output_loss: 8.0731 - val_sbp_output_mae_mmhg: 8.0731 - learning_rate: 9.0000e-06
+Epoch 62/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 1.7673 - dbp_output_mae_mmhg: 1.7673 - loss: 4.5478 - sbp_output_loss: 2.7805 - sbp_output_mae_mmhg: 2.7805 - val_dbp_output_loss: 5.0133 - val_dbp_output_mae_mmhg: 5.0133 - val_loss: 13.0838 - val_sbp_output_loss: 8.0705 - val_sbp_output_mae_mmhg: 8.0705 - learning_rate: 9.0000e-06
+Epoch 63/200
+
+Epoch 63: ReduceLROnPlateau reducing learning rate to 2.6999998226528985e-06.
+5639/5639 - 1643s - 291ms/step - dbp_output_loss: 1.7409 - dbp_output_mae_mmhg: 1.7409 - loss: 4.4784 - sbp_output_loss: 2.7375 - sbp_output_mae_mmhg: 2.7375 - val_dbp_output_loss: 5.0145 - val_dbp_output_mae_mmhg: 5.0145 - val_loss: 13.0900 - val_sbp_output_loss: 8.0755 - val_sbp_output_mae_mmhg: 8.0755 - learning_rate: 9.0000e-06
+Epoch 64/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 1.6798 - dbp_output_mae_mmhg: 1.6798 - loss: 4.3155 - sbp_output_loss: 2.6357 - sbp_output_mae_mmhg: 2.6357 - val_dbp_output_loss: 5.0132 - val_dbp_output_mae_mmhg: 5.0132 - val_loss: 13.0882 - val_sbp_output_loss: 8.0750 - val_sbp_output_mae_mmhg: 8.0750 - learning_rate: 2.7000e-06
+Epoch 65/200
+5639/5639 - 1641s - 291ms/step - dbp_output_loss: 1.6630 - dbp_output_mae_mmhg: 1.6630 - loss: 4.2719 - sbp_output_loss: 2.6089 - sbp_output_mae_mmhg: 2.6089 - val_dbp_output_loss: 5.0133 - val_dbp_output_mae_mmhg: 5.0133 - val_loss: 13.0900 - val_sbp_output_loss: 8.0766 - val_sbp_output_mae_mmhg: 8.0766 - learning_rate: 2.7000e-06
+Epoch 66/200
+
+Epoch 66: ReduceLROnPlateau reducing learning rate to 1e-06.
+5639/5639 - 1639s - 291ms/step - dbp_output_loss: 1.6531 - dbp_output_mae_mmhg: 1.6531 - loss: 4.2439 - sbp_output_loss: 2.5908 - sbp_output_mae_mmhg: 2.5908 - val_dbp_output_loss: 5.0154 - val_dbp_output_mae_mmhg: 5.0154 - val_loss: 13.0914 - val_sbp_output_loss: 8.0761 - val_sbp_output_mae_mmhg: 8.0761 - learning_rate: 2.7000e-06
+Epoch 67/200
+5639/5639 - 1642s - 291ms/step - dbp_output_loss: 1.6334 - dbp_output_mae_mmhg: 1.6334 - loss: 4.1922 - sbp_output_loss: 2.5587 - sbp_output_mae_mmhg: 2.5587 - val_dbp_output_loss: 5.0144 - val_dbp_output_mae_mmhg: 5.0144 - val_loss: 13.0919 - val_sbp_output_loss: 8.0774 - val_sbp_output_mae_mmhg: 8.0774 - learning_rate: 1.0000e-06
+Epoch 68/200
+5639/5639 - 1648s - 292ms/step - dbp_output_loss: 1.6286 - dbp_output_mae_mmhg: 1.6286 - loss: 4.1796 - sbp_output_loss: 2.5510 - sbp_output_mae_mmhg: 2.5510 - val_dbp_output_loss: 5.0156 - val_dbp_output_mae_mmhg: 5.0156 - val_loss: 13.0946 - val_sbp_output_loss: 8.0790 - val_sbp_output_mae_mmhg: 8.0790 - learning_rate: 1.0000e-06
+Training time: 1862.20 minutes
+Test_CalBased: ECG=1592, PPG=1592, SBP=1592, DBP=1592
+Test_CalBased chunks: 1592
+evaluate results: [13.018913269042969, 8.050910949707031, 4.966214656829834, 4.966214656829834, 8.050910949707031]
+Test_CalBased - SBP: ME=0.01, MAE=8.05, MSE=146.77, STD=12.11
+Test_CalBased - DBP: ME=0.31, MAE=4.97, MSE=63.19, STD=7.94
+Test_CalFree: ECG=1772, PPG=1772, SBP=1772, DBP=1772
+Test_CalFree chunks: 1772
+evaluate results: [31.037994384765625, 17.937213897705078, 13.103323936462402, 13.103323936462402, 17.937213897705078]
+Test_CalFree - SBP: ME=-0.54, MAE=17.94, MSE=538.46, STD=23.20
+Test_CalFree - DBP: ME=-0.99, MAE=13.10, MSE=280.35, STD=16.71
+
