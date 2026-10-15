@@ -8,9 +8,9 @@ from pyts.image import GramianAngularField  # for GAF (GASF)
 # ----------------------------
 # Load data
 # ----------------------------
-subid = np.load('Data_train_subjectid.npy')
-ecg = np.load('data_train_ecg.npy').astype(np.float32) 
-ppg = np.load('data_train_ppg.npy').astype(np.float32)
+subid = np.load('train_subjectids.npy')
+ecg = np.load('train_ecg.npy').astype(np.float32) 
+ppg = np.load('train_ppg.npy').astype(np.float32)
 
 sample_index = 100
 ecg_seg = ecg[sample_index]
