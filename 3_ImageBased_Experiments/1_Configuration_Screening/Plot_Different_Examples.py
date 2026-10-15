@@ -8,11 +8,11 @@ from pyts.image import GramianAngularField  # for GAF (GASF)
 # ----------------------------
 # Load data
 # ----------------------------
-subid = np.load('train_subjectids.npy')
-ecg = np.load('train_ecg.npy').astype(np.float32) 
-ppg = np.load('train_ppg.npy').astype(np.float32)
+subid = np.load('Data_train_subjectid.npy')
+ecg = np.load('data_train_ecg.npy').astype(np.float32) 
+ppg = np.load('data_train_ppg.npy').astype(np.float32)
 
-sample_index = 600
+sample_index = 100
 ecg_seg = ecg[sample_index]
 ppg_seg = ppg[sample_index]
 
@@ -25,7 +25,7 @@ print("ECG seg shape:", ecg_seg.shape, "PPG seg shape:", ppg_seg.shape)
 # STFT
 WIN_LEN = 125
 OVERLAP_PCT = 0.15
-NOVERLAP = int(round(WIN_LEN * OVERLAP_PCT))  # ~19
+NOVERLAP = int(round(WIN_LEN * OVERLAP_PCT)) 
 
 #  The default sampling rate in PulseDB
 FS = 125
@@ -108,7 +108,7 @@ vg_p = visibility_graph_adjacency(ppg_ds)
 # (g,h) GASF
 # (i,j) VG
 # ----------------------------
-fig, axes = plt.subplots(5, 2, figsize=(12, 16))
+fig, axes = plt.subplots(5, 2, figsize=(11, 13))
 
 # (a) Raw ECG
 axes[0, 0].plot(ecg_seg)
@@ -180,12 +180,11 @@ axes[4, 1].set_xlabel("Node index")
 axes[4, 1].set_ylabel("Node index")
 fig.colorbar(im, ax=axes[4, 1], fraction=0.046, pad=0.04)
 
-plt.suptitle(f"Sample {sample_index} | Subject ID: {subid[sample_index]}", y=0.995)
+#plt.suptitle(f"Sample {sample_index} | Subject ID: {subid[sample_index]}", y=0.995)
 plt.tight_layout()
-plt.show()
-
 
 # Save a high-resolution figure 
 outpath = f"Sample_{sample_index}_ECG_PPG_4methods.png"
-fig.savefig(outpath, dpi=300, bbox_inches="tight")
+fig.savefig(outpath, dpi=fig.dpi, bbox_inches="tight")
 print("Saved figure to:", outpath)
+plt.show()
