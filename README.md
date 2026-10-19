@@ -132,9 +132,9 @@ The investigated signal-to-image methods include STFT, CWT, GAF, and Visibility 
 
 
 
-**Results**
+**Sample_Training_Logs**
 
-The 'Results' directory contains selected experimental log files from different stages of this research. These files are provided as representative examples of the experiments conducted and do not include the complete history of all experimental runs.
+The 'Sample_Training_Logs' directory contains some experimental log files from different stages of screening. These files are provided as representative examples of the experiments conducted and do not include the complete history of all experimental runs.
 
 The logs are organized according to the model architecture and evaluation procedure, including five-fold cross-validation, single-fold validation, and full-training experiments evaluated on the Calibration-Based and Calibration-Free test sets.
 
