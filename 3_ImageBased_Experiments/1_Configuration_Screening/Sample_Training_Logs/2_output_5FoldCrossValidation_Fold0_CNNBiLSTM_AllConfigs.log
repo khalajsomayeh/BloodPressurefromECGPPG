@@ -1,0 +1,280 @@
+Using device: /GPU:0
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.25, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 64, 'overlap': 0.25, 'window': 'hann'},input_shape=(33, 25, 1), patch(h,w)=(11, 25)
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.25, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.24, MAE=16.95, MSE=449.69, STD=21.09
+fold0 - DBP: ME=-0.73, MAE=9.83, MSE=156.60, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.25, 'window': 'hamming'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 64, 'overlap': 0.25, 'window': 'hamming'},input_shape=(33, 25, 1), patch(h,w)=(11, 25)
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.25, 'window': 'hamming'} ===
+fold0 - SBP: ME=-2.11, MAE=16.95, MSE=449.09, STD=21.09
+fold0 - DBP: ME=-1.88, MAE=9.86, MSE=159.61, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.5, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 64, 'overlap': 0.5, 'window': 'hann'},input_shape=(33, 38, 1), patch(h,w)=(11, 19)
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.5, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.14, MAE=16.95, MSE=449.23, STD=21.09
+fold0 - DBP: ME=-0.15, MAE=9.85, MSE=156.09, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.5, 'window': 'hamming'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 64, 'overlap': 0.5, 'window': 'hamming'},input_shape=(33, 38, 1), patch(h,w)=(11, 19)
+
+=== Transform: stft, config: {'nperseg': 64, 'overlap': 0.5, 'window': 'hamming'} ===
+fold0 - SBP: ME=-2.11, MAE=16.95, MSE=449.09, STD=21.09
+fold0 - DBP: ME=-0.83, MAE=9.83, MSE=156.75, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.25, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 128, 'overlap': 0.25, 'window': 'hann'},input_shape=(65, 12, 1), patch(h,w)=(13, 6)
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.25, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.46, MAE=16.95, MSE=450.70, STD=21.09
+fold0 - DBP: ME=-0.95, MAE=9.83, MSE=156.96, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.25, 'window': 'blackman'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 128, 'overlap': 0.25, 'window': 'blackman'},input_shape=(65, 12, 1), patch(h,w)=(13, 6)
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.25, 'window': 'blackman'} ===
+fold0 - SBP: ME=-2.46, MAE=16.95, MSE=450.69, STD=21.09
+fold0 - DBP: ME=-0.77, MAE=9.83, MSE=156.67, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.5, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 128, 'overlap': 0.5, 'window': 'hann'},input_shape=(65, 18, 1), patch(h,w)=(13, 9)
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.5, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.12, MAE=16.95, MSE=449.16, STD=21.09
+fold0 - DBP: ME=-0.85, MAE=9.83, MSE=156.78, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.5, 'window': 'blackman'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 128, 'overlap': 0.5, 'window': 'blackman'},input_shape=(65, 18, 1), patch(h,w)=(13, 9)
+
+=== Transform: stft, config: {'nperseg': 128, 'overlap': 0.5, 'window': 'blackman'} ===
+fold0 - SBP: ME=-2.29, MAE=16.95, MSE=449.91, STD=21.09
+fold0 - DBP: ME=-1.52, MAE=9.84, MSE=158.37, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.15, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 256, 'overlap': 0.15, 'window': 'hann'},input_shape=(129, 5, 1), patch(h,w)=(129, 5)
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.15, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.12, MAE=16.95, MSE=449.16, STD=21.09
+fold0 - DBP: ME=-1.05, MAE=9.83, MSE=157.18, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.25, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 256, 'overlap': 0.25, 'window': 'hann'},input_shape=(129, 6, 1), patch(h,w)=(129, 6)
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.25, 'window': 'hann'} ===
+fold0 - SBP: ME=-1.25, MAE=16.97, MSE=446.21, STD=21.09
+fold0 - DBP: ME=0.34, MAE=9.88, MSE=156.19, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.25, 'window': 'blackman'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 256, 'overlap': 0.25, 'window': 'blackman'},input_shape=(129, 6, 1), patch(h,w)=(129, 6)
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.25, 'window': 'blackman'} ===
+fold0 - SBP: ME=-2.19, MAE=16.95, MSE=449.42, STD=21.09
+fold0 - DBP: ME=-0.70, MAE=9.83, MSE=156.55, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.5, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 256, 'overlap': 0.5, 'window': 'hann'},input_shape=(129, 8, 1), patch(h,w)=(129, 8)
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.5, 'window': 'hann'} ===
+fold0 - SBP: ME=-1.91, MAE=16.95, MSE=448.33, STD=21.09
+fold0 - DBP: ME=-0.92, MAE=9.83, MSE=156.91, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.5, 'window': 'blackman'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 256, 'overlap': 0.5, 'window': 'blackman'},input_shape=(129, 8, 1), patch(h,w)=(129, 8)
+
+=== Transform: stft, config: {'nperseg': 256, 'overlap': 0.5, 'window': 'blackman'} ===
+fold0 - SBP: ME=-2.25, MAE=16.95, MSE=449.68, STD=21.09
+fold0 - DBP: ME=-0.75, MAE=9.83, MSE=156.63, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 512, 'overlap': 0.25, 'window': 'hann'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 512, 'overlap': 0.25, 'window': 'hann'},input_shape=(257, 2, 1), patch(h,w)=(257, 2)
+
+=== Transform: stft, config: {'nperseg': 512, 'overlap': 0.25, 'window': 'hann'} ===
+fold0 - SBP: ME=-2.22, MAE=16.95, MSE=449.57, STD=21.09
+fold0 - DBP: ME=-1.00, MAE=9.83, MSE=157.07, STD=12.49
+
+=== Transform: stft, config: {'nperseg': 512, 'overlap': 0.5, 'window': 'blackman'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'nperseg': 512, 'overlap': 0.5, 'window': 'blackman'},input_shape=(257, 3, 1), patch(h,w)=(257, 3)
+
+=== Transform: stft, config: {'nperseg': 512, 'overlap': 0.5, 'window': 'blackman'} ===
+fold0 - SBP: ME=-2.15, MAE=16.95, MSE=449.27, STD=21.09
+fold0 - DBP: ME=-0.98, MAE=9.83, MSE=157.03, STD=12.49
+{'me_sbp': -2.1514245430806787, 'me_dbp': -0.9804715424041913, 'mae_sbp': 16.950842197108724, 'mae_dbp': 9.832604678153777, 'mse_sbp': 449.27397180816905, 'mse_dbp': 157.02942516719588, 'std_sbp': 21.086615286565056, 'std_dbp': 12.492721910045523}
+
+=== Transform: cwt, config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True},input_shape=(64, 1250, 1), patch(h,w)=(16, 25)
+
+=== Transform: cwt, config: {'wavelet': 'morl', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True} ===
+fold0 - SBP: ME=-0.88, MAE=16.22, MSE=415.01, STD=20.35
+fold0 - DBP: ME=0.54, MAE=9.80, MSE=153.70, STD=12.39
+
+=== Transform: cwt, config: {'wavelet': 'mexh', 'n_scales': 64, 'scale_mode': 'linear', 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'magnitude', 'log_scale': False, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': False} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'wavelet': 'mexh', 'n_scales': 64, 'scale_mode': 'linear', 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'magnitude', 'log_scale': False, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': False},input_shape=(64, 1250, 1), patch(h,w)=(16, 25)
+
+=== Transform: cwt, config: {'wavelet': 'mexh', 'n_scales': 64, 'scale_mode': 'linear', 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'magnitude', 'log_scale': False, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': False} ===
+fold0 - SBP: ME=-2.38, MAE=16.95, MSE=450.30, STD=21.09
+fold0 - DBP: ME=-0.51, MAE=9.84, MSE=156.32, STD=12.49
+
+=== Transform: cwt, config: {'wavelet': 'cmor1.5-1.0', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'wavelet': 'cmor1.5-1.0', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True},input_shape=(64, 1250, 1), patch(h,w)=(16, 25)
+
+=== Transform: cwt, config: {'wavelet': 'cmor1.5-1.0', 'n_scales': 64, 'scale_mode': 'log', 'voices_per_octave': 12, 'fmin_hz': 0.5, 'fmax_hz': 10, 'power': 'power', 'log_scale': True, 'norm': 'per_sample', 'pad_mode': 'reflect', 'use_coi_mask': True} ===
+fold0 - SBP: ME=-2.53, MAE=16.12, MSE=414.67, STD=20.21
+fold0 - DBP: ME=-1.07, MAE=9.63, MSE=150.99, STD=12.24
+{'me_sbp': -2.5263917710164696, 'me_dbp': -1.0688635502319501, 'mae_sbp': 16.119172983179098, 'mae_dbp': 9.634851035299713, 'mse_sbp': 414.67160929710957, 'mse_dbp': 150.98631509891487, 'std_sbp': 20.20616128601496, 'std_dbp': 12.241072085806065}
+
+=== Transform: gaf, config: {'kind': 'GASF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': None, 'signal_variant': 'raw'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'kind': 'GASF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': None, 'signal_variant': 'raw'},input_shape=(128, 128, 1), patch(h,w)=(16, 16)
+
+=== Transform: gaf, config: {'kind': 'GASF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': None, 'signal_variant': 'raw'} ===
+fold0 - SBP: ME=-1.48, MAE=16.27, MSE=421.03, STD=20.47
+fold0 - DBP: ME=-1.18, MAE=9.70, MSE=152.84, STD=12.31
+
+=== Transform: gaf, config: {'kind': 'GADF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': {'type': 'savgol', 'window': 11, 'poly': 3}, 'signal_variant': 'raw'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'kind': 'GADF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': {'type': 'savgol', 'window': 11, 'poly': 3}, 'signal_variant': 'raw'},input_shape=(128, 128, 1), patch(h,w)=(16, 16)
+
+=== Transform: gaf, config: {'kind': 'GADF', 'image_size': 128, 'reduce_method': 'paa', 'normalize': 'minmax', 'feature_range': (-1, 1), 'norm_scope': 'per_sample', 'smooth': {'type': 'savgol', 'window': 11, 'poly': 3}, 'signal_variant': 'raw'} ===
+fold0 - SBP: ME=-0.82, MAE=16.34, MSE=421.92, STD=20.52
+fold0 - DBP: ME=0.13, MAE=9.75, MSE=152.94, STD=12.37
+
+=== Transform: gaf, config: {'kind': 'GASF', 'image_size': 224, 'reduce_method': 'resample', 'normalize': 'zscore', 'norm_scope': 'global', 'smooth': None, 'signal_variant': 'diff1'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'kind': 'GASF', 'image_size': 224, 'reduce_method': 'resample', 'normalize': 'zscore', 'norm_scope': 'global', 'smooth': None, 'signal_variant': 'diff1'},input_shape=(224, 224, 1), patch(h,w)=(16, 16)
+
+=== Transform: gaf, config: {'kind': 'GASF', 'image_size': 224, 'reduce_method': 'resample', 'normalize': 'zscore', 'norm_scope': 'global', 'smooth': None, 'signal_variant': 'diff1'} ===
+fold0 - SBP: ME=-2.46, MAE=16.95, MSE=450.72, STD=21.09
+fold0 - DBP: ME=-1.32, MAE=9.84, MSE=157.80, STD=12.49
+{'me_sbp': -2.4628670060018214, 'me_dbp': -1.3155901661377116, 'mae_sbp': 16.95245596711975, 'mae_dbp': 9.837112617667346, 'mse_sbp': 450.71966578355176, 'mse_dbp': 157.79801387339546, 'std_sbp': 21.086819387814263, 'std_dbp': 12.492687316512695}
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 128, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': False, 'repr': 'adjacency'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'graph_type': 'natural', 'downsample_len': 128, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': False, 'repr': 'adjacency'},input_shape=(128, 128, 1), patch(h,w)=(16, 16)
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 128, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': False, 'repr': 'adjacency'} ===
+fold0 - SBP: ME=-2.08, MAE=16.95, MSE=448.99, STD=21.09
+fold0 - DBP: ME=-1.36, MAE=9.84, MSE=157.92, STD=12.49
+
+=== Transform: vg, config: {'graph_type': 'horizontal', 'downsample_len': 128, 'downsample_method': 'median_pool', 'detrend': True, 'zscore': True, 'tie_break': 'strict', 'weighted': False, 'repr': 'adjacency'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'graph_type': 'horizontal', 'downsample_len': 128, 'downsample_method': 'median_pool', 'detrend': True, 'zscore': True, 'tie_break': 'strict', 'weighted': False, 'repr': 'adjacency'},input_shape=(128, 128, 1), patch(h,w)=(16, 16)
+
+=== Transform: vg, config: {'graph_type': 'horizontal', 'downsample_len': 128, 'downsample_method': 'median_pool', 'detrend': True, 'zscore': True, 'tie_break': 'strict', 'weighted': False, 'repr': 'adjacency'} ===
+fold0 - SBP: ME=-2.25, MAE=16.95, MSE=449.70, STD=21.09
+fold0 - DBP: ME=-0.57, MAE=9.84, MSE=156.40, STD=12.49
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': False, 'zscore': True, 'tie_break': 'allow', 'weighted': True, 'weight_mode': 'slope', 'repr': 'adjacency'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': False, 'zscore': True, 'tie_break': 'allow', 'weighted': True, 'weight_mode': 'slope', 'repr': 'adjacency'},input_shape=(256, 256, 1), patch(h,w)=(16, 16)
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': False, 'zscore': True, 'tie_break': 'allow', 'weighted': True, 'weight_mode': 'slope', 'repr': 'adjacency'} ===
+fold0 - SBP: ME=-2.32, MAE=16.95, MSE=450.02, STD=21.09
+fold0 - DBP: ME=-1.58, MAE=9.85, MSE=158.57, STD=12.49
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': True, 'weight_mode': 'abs_diff', 'repr_type': 'laplacian'} ===
+ecg train: (16000, 1250)
+y_train_sbp: (16000, 1)
+ecg val: (4000, 1250)
+y_val_sbp: (4000, 1)
+cfg:{'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': True, 'weight_mode': 'abs_diff', 'repr_type': 'laplacian'},input_shape=(256, 256, 1), patch(h,w)=(16, 16)
+
+=== Transform: vg, config: {'graph_type': 'natural', 'downsample_len': 256, 'downsample_method': 'mean_pool', 'detrend': True, 'zscore': True, 'tie_break': 'jitter_eps', 'weighted': True, 'weight_mode': 'abs_diff', 'repr_type': 'laplacian'} ===
+fold0 - SBP: ME=-1.62, MAE=15.94, MSE=406.21, STD=20.09
+fold0 - DBP: ME=1.51, MAE=9.70, MSE=148.18, STD=12.08
+{'me_sbp': -1.6232217270711573, 'me_dbp': 1.510607719375594, 'mae_sbp': 15.938175765258597, 'mae_dbp': 9.701210134422517, 'mse_sbp': 406.2083594982596, 'mse_dbp': 148.1848288421995, 'std_sbp': 20.08913912349217, 'std_dbp': 12.079026995597053}
