@@ -1409,7 +1409,7 @@ for i in range(5):
 
                     # Plot examples of ECG and PPG only for one fold, one example
 
-                    if (fold_id==0):
+                    if  (i==0): #(fold_id==0):
                         idx= 0
                         ecg_img = train_ecg_img[idx, :, :]
                         ppg_img = train_ppg_img[idx, :, :]
