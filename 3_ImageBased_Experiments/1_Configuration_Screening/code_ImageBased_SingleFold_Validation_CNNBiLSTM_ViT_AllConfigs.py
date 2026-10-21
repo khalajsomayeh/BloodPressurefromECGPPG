@@ -966,7 +966,7 @@ def shuffle_array(array, idx):
 
 # Function to recalculate the SBP and DBP from ABP segments
 def compute_sbp_dbp_from_abp_segment(abp, min_distance=30):
-    min_distance = max(1, int(round(0.4 * fs)))
+    #min_distance = max(1, int(round(0.4 * fs)))
     peak_idx, trough_idx = find_local_peaks_troughs(abp, min_distance=min_distance)
 
     if len(peak_idx) == 0 or len(trough_idx) == 0:
