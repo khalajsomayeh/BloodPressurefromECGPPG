@@ -847,7 +847,7 @@ for transform_type, config_list in active_image_configs.items():
 
             fold_id = 1
             # Plot examples of ECG and PPG only for one fold, one example
-            if (fold_id==1):
+            if  (i==1): #(fold_id==1):
                 idx= 800
                 ecg_img = train_ecg_img[idx, :, :]
                 ppg_img = train_ppg_img[idx, :, :]
