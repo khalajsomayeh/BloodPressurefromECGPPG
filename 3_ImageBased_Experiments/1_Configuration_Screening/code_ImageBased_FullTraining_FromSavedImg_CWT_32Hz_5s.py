@@ -804,9 +804,6 @@ def test_mymodel (y_pred_sbp, y_pred_dbp, y_true_sbp, y_true_dbp, dataset_name="
     me_dbp = np.mean(y_true_dbp - y_pred_dbp)
 
     # Mean Squared Error
-    # MSE is calculated as a supplementary metric for
-    # experimental logging and additional analysis.
-    # The primary reported metrics are ME, MAE, and SDE.
     mse_sbp = mean_squared_error(y_true_sbp, y_pred_sbp)
     mse_dbp = mean_squared_error(y_true_dbp, y_pred_dbp)
 
