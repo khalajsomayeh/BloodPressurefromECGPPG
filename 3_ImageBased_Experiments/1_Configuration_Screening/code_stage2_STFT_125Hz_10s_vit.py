@@ -1560,10 +1560,7 @@ for i in range(5):
                     me_sbp = np.mean(y_val_sbp_resegmented - y_pred_sbp)
                     me_dbp = np.mean(y_val_dbp_resegmented - y_pred_dbp)
 
-                    # MSE
-                    # MSE is calculated as a supplementary metric for
-                    # experimental logging and additional analysis.
-                    # The primary reported metrics are ME, MAE, and SDE.
+                    # MSE                    
                     mse_sbp = mean_squared_error(y_val_sbp_resegmented, y_pred_sbp)
                     mse_dbp = mean_squared_error(y_val_dbp_resegmented, y_pred_dbp)
 
