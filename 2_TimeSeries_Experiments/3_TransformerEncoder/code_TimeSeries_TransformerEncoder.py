@@ -679,20 +679,20 @@ def test_mymodel(sbp_scaled, dbp_scaled, y_true_sbp, y_true_dbp, ecg,ppg, datase
     y_pred_dbp = y_pred_dbp[:, 0]
 
     # ME (Mean Error)
-    me_sbp = np.mean(y_pred_sbp - y_true_sbp)
-    me_dbp = np.mean(y_pred_dbp - y_true_dbp)
+    me_sbp = np.mean(y_true_sbp - y_pred_sbp)
+    me_dbp = np.mean(y_true_dbp - y_pred_dbp)
 
     # MSE
-    mse_sbp = mean_squared_error(y_pred_sbp, y_true_sbp)
-    mse_dbp = mean_squared_error(y_pred_dbp, y_true_dbp)
+    mse_sbp = mean_squared_error(y_true_sbp, y_pred_sbp)
+    mse_dbp = mean_squared_error(y_true_dbp, y_pred_dbp)
 
     # MAE
-    mae_sbp = mean_absolute_error(y_pred_sbp, y_true_sbp)
-    mae_dbp = mean_absolute_error(y_pred_dbp, y_true_dbp)
+    mae_sbp = mean_absolute_error(y_true_sbp, y_pred_sbp)
+    mae_dbp = mean_absolute_error(y_true_dbp, y_pred_dbp)
 
     # SDE
-    std_sbp = np.std(y_pred_sbp - y_true_sbp)
-    std_dbp = np.std(y_pred_dbp - y_true_dbp)
+    std_sbp = np.std(y_true_sbp - y_pred_sbp)
+    std_dbp = np.std(y_true_dbp - y_pred_dbp)
 
     print(f"{dataset_name} - SBP: ME={me_sbp:.2f}, MAE={mae_sbp:.2f}, MSE={mse_sbp:.2f}, STD={std_sbp:.2f}")
     print(f"{dataset_name} - DBP: ME={me_dbp:.2f}, MAE={mae_dbp:.2f}, MSE={mse_dbp:.2f}, STD={std_dbp:.2f}")
