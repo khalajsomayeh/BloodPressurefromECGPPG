@@ -45,7 +45,7 @@ BloodPressurefromECGPPG/
 
 │   ├── 2\_PatchBased\_Transformer/
 
-│   └── 3\_TransformerEncoder/
+│   └── 3\_SampleLevel\_Transformer/
 
 │
 
